@@ -12,9 +12,9 @@ protected:
     uint8_t redPin;
     uint8_t greenPin;
     uint8_t bluePin;
-    uint8_t r = 0;
-    uint8_t g = 0;
-    uint8_t b = 0;
+    uint8_t r = 0xFF;
+    uint8_t g = 0xFF;
+    uint8_t b = 0xFF;
     bool state = false;
 
 public:
